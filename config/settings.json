@@ -1,0 +1,18 @@
+{
+  "project_id": 1266175173,
+  "world_size": 200,
+  "hub_center": [100, 100],
+  "hub_radius": 5,
+  "tp_max_path": 15,
+  "tp_energy_per_step": 3,
+  "scout_max_radius": 10,
+  "flee_distance": 10,
+  "disengage_distance": 40,
+  "sector_size": 25,
+  "sectors_per_axis": 8,
+  "sectors_regen_per_day": 16,
+  "regen_warning_hours": 24,
+  "creature_respawn_minutes": 60,
+  "max_actions_feed": 50,
+  "rate_limit_seconds": 1.0
+}
