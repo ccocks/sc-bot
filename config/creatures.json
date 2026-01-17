@@ -1,0 +1,40 @@
+{
+  "types": {
+    "1": {
+      "name": "Bat",
+      "hp": 10,
+      "damage": 2,
+      "speed": 2,
+      "tier": 1,
+      "alert_chance_base": 0.3,
+      "drops": {"coal": 1}
+    },
+    "2": {
+      "name": "Slime",
+      "hp": 25,
+      "damage": 5,
+      "speed": 1,
+      "tier": 2,
+      "alert_chance_base": 0.2,
+      "drops": {"slime": 2, "copper": 1}
+    },
+    "3": {
+      "name": "Spider",
+      "hp": 40,
+      "damage": 8,
+      "speed": 3,
+      "tier": 3,
+      "alert_chance_base": 0.25,
+      "drops": {"string": 2, "iron": 1}
+    },
+    "4": {
+      "name": "Skeleton",
+      "hp": 60,
+      "damage": 12,
+      "speed": 2,
+      "tier": 4,
+      "alert_chance_base": 0.15,
+      "drops": {"bone": 3, "gold": 1}
+    }
+  }
+}
