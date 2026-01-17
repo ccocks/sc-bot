@@ -1,0 +1,17 @@
+{
+  "tiers": [
+    {"tier": 1, "min_dist": 0, "max_dist": 25},
+    {"tier": 2, "min_dist": 26, "max_dist": 50},
+    {"tier": 3, "min_dist": 51, "max_dist": 80},
+    {"tier": 4, "min_dist": 81, "max_dist": 120},
+    {"tier": 5, "min_dist": 121, "max_dist": 999}
+  ],
+  "harvest_cooldowns_minutes": {
+    "1": 360,
+    "2": 180,
+    "3": 90,
+    "4": 45,
+    "5": 20
+  },
+  "cooldown_multiplier_per_level_diff": 1.5
+}
