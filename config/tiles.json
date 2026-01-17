@@ -1,0 +1,27 @@
+{
+  "floor": [45, 56, 60, 61, 62],
+  "wall": [51, 52, 54, 55, 58],
+  "ore": {
+    "25": {"name": "emerald_ore", "tier": 5, "yield": "emerald"},
+    "26": {"name": "coal_ore", "tier": 1, "yield": "coal"},
+    "27": {"name": "nether_quartz_ore", "tier": 4, "yield": "quartz"},
+    "28": {"name": "copper_ore", "tier": 1, "yield": "copper"},
+    "29": {"name": "deepslate_lapis_ore", "tier": 3, "yield": "lapis"},
+    "30": {"name": "redstone_ore", "tier": 2, "yield": "redstone"},
+    "31": {"name": "lapis_ore", "tier": 2, "yield": "lapis"},
+    "32": {"name": "deepslate_diamond_ore", "tier": 5, "yield": "diamond"},
+    "33": {"name": "nether_gold_ore", "tier": 4, "yield": "gold"},
+    "34": {"name": "deepslate_emerald_ore", "tier": 5, "yield": "emerald"},
+    "35": {"name": "iron_ore", "tier": 2, "yield": "iron"},
+    "36": {"name": "deepslate_coal_ore", "tier": 2, "yield": "coal"},
+    "37": {"name": "deepslate_redstone_ore", "tier": 3, "yield": "redstone"},
+    "38": {"name": "deepslate_iron_ore", "tier": 3, "yield": "iron"},
+    "39": {"name": "deepslate_gold_ore", "tier": 4, "yield": "gold"},
+    "40": {"name": "deepslate_copper_ore", "tier": 2, "yield": "copper"},
+    "41": {"name": "diamond_ore", "tier": 4, "yield": "diamond"},
+    "42": {"name": "gold_ore", "tier": 3, "yield": "gold"}
+  },
+  "hazard": [64],
+  "primary_floor": 56,
+  "primary_wall": 54
+}
