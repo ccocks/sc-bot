@@ -1,0 +1,30 @@
+{
+  "resources": {
+    "coal": {"tier": 1, "stack": 10, "base_price": 5},
+    "copper": {"tier": 1, "stack": 10, "base_price": 8},
+    "iron": {"tier": 2, "stack": 10, "base_price": 15},
+    "redstone": {"tier": 2, "stack": 10, "base_price": 12},
+    "lapis": {"tier": 2, "stack": 10, "base_price": 14},
+    "gold": {"tier": 3, "stack": 10, "base_price": 30},
+    "quartz": {"tier": 4, "stack": 10, "base_price": 50},
+    "diamond": {"tier": 5, "stack": 10, "base_price": 100},
+    "emerald": {"tier": 5, "stack": 10, "base_price": 120},
+    "slime": {"tier": 2, "stack": 10, "base_price": 10},
+    "string": {"tier": 3, "stack": 10, "base_price": 8},
+    "bone": {"tier": 4, "stack": 10, "base_price": 12}
+  },
+  "tools": {
+    "wood_pickaxe": {"tier": 1, "durability": 50, "power": 1, "cost": {"coal": 5}},
+    "stone_pickaxe": {"tier": 2, "durability": 100, "power": 2, "cost": {"iron": 3}},
+    "iron_pickaxe": {"tier": 3, "durability": 200, "power": 3, "cost": {"iron": 10, "coal": 5}}
+  },
+  "weapons": {
+    "wood_sword": {"tier": 1, "durability": 40, "damage": 5, "cost": {"coal": 3}},
+    "stone_sword": {"tier": 2, "durability": 80, "damage": 10, "cost": {"iron": 2}},
+    "iron_sword": {"tier": 3, "durability": 150, "damage": 18, "cost": {"iron": 8, "coal": 3}}
+  },
+  "consumables": {
+    "health_potion": {"heal": 30, "stack": 5, "cost": {"redstone": 3, "slime": 1}},
+    "energy_potion": {"energy": 50, "stack": 5, "cost": {"lapis": 2, "coal": 2}}
+  }
+}
