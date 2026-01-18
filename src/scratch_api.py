@@ -10,7 +10,7 @@ from typing import Optional
 
 class ScratchAPI:
     def __init__(self, session_id: str, project_id: int, rate_limit: float = 1.0):
-        self.session = sa.login_by_id(session_id)
+        self.session = sa.login("scratchcord_bot", session_id)
         self.project = self.session.connect_project(project_id)
         self.project_id = project_id
         self.rate_limit = rate_limit
